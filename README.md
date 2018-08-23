@@ -1,7 +1,7 @@
 [![Release](https://jitpack.io/v/ashLikun/VerifyCodeView.svg)](https://jitpack.io/#ashLikun/VerifyCodeView)
 
-
-VerifyCodeView项目简介
+# **VerifyCodeView**
+项目简介
     模仿滴滴的验证码输入
 ## 使用方法
 
