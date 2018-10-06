@@ -282,6 +282,18 @@ public class VerifyCodeView extends LinearLayout {
         }
     }
 
+    /**
+     * 清空输入的验证码
+     */
+    public void cleanCode() {
+        if (editTexts != null && editTexts.size() > 0) {
+            for (EditText editText : editTexts) {
+                editText.setText("");
+            }
+            editTexts.get(0).requestFocus();
+        }
+    }
+
     public int dip2px(float dipValue) {
         final float scale = getContext().getResources().getDisplayMetrics().density;
         return (int) (dipValue * scale + 0.5f);

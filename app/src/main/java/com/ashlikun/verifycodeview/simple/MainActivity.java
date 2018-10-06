@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onComplete(String code) {
                 Toast.makeText(MainActivity.this, code, Toast.LENGTH_LONG).show();
+                codeView.cleanCode();
             }
         });
     }
